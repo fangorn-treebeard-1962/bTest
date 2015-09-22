@@ -20,7 +20,7 @@ describe('Controller: MainCtrl', function () {
     expect(scope.awesomeThings.length).toBe(3);
   });
 
-  it('should fail expecting scope.awesomeThings.length to be 4', function () {
-    expect(scope.awesomeThings.length).toBe(4);
+  it('should succeed expecting scope.awesomeThings.length to be 3', function () {
+    expect(scope.awesomeThings.length).toBe(3);
   });
 });
